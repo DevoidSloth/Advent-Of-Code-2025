@@ -1,4 +1,4 @@
-with open('secret.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     secret_data = file.read().splitlines()
     
 dp = 50
